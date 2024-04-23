@@ -1,12 +1,12 @@
 import Operators from "./Operators";
-import Header from "./components/Header";
 import Input from "./components/Input";
 import Numbers from "./components/Numbers";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <h1>MY CALCULATOR</h1>
+      
       <Input/>
       <Operators/>
       <Numbers/>
